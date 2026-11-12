@@ -23,6 +23,15 @@
 ## ติดตั้ง
 1. ดาวน์โหลด `KeySwap.dmg` แล้วลาก **KeySwap** ไปไว้ใน **Applications**
 2. เปิดครั้งแรก: คลิกขวาที่แอป → **Open** (แอปยังไม่ได้ลงทะเบียนกับ Apple)
+3. กด **Open Accessibility settings** ในหน้าต่าง KeySwap แล้วเปิดสวิตช์ KeySwap ใน Privacy & Security › Accessibility
+4. ต้องมีแป้นพิมพ์ **Thai** (เกษมณี) ใน System Settings › Keyboard › Input Sources
+
+KeySwap อยู่บนแถบเมนู (EN / TH) ปิดหน้าต่างแล้วยังทำงานต่อ
+
+| ปุ่มลัด | ทำอะไร |
+|---|---|
+| ⇧ ⌫ | สลับภาษาของคำที่เพิ่งพิมพ์ หรือยกเลิกการแก้ล่าสุด |
+| ⌃ ⌥ \ | สลับ Automatic ↔ Manual |
 
 ## อัปเดต
 แอปเช็กเวอร์ชันใหม่ทุกครั้งที่เปิด ถ้ามีจะขึ้นปุ่ม **Update and restart** หรือกด **Check for updates** ในแท็บ About
