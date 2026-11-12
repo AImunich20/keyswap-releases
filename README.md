@@ -16,6 +16,7 @@
 </p>
 
 <p align="center">
+  ทำงานในทุกแอป · อยู่บนแถบเมนู ·
   macOS 11 ขึ้นไป · Apple silicon · อัปเดตอัตโนมัติ ·
   <a href="https://github.com/AImunich20/keyswap-releases/releases">ทุกเวอร์ชัน</a>
 </p>
@@ -26,7 +27,13 @@
 3. กด **Open Accessibility settings** ในหน้าต่าง KeySwap แล้วเปิดสวิตช์ KeySwap ใน Privacy & Security › Accessibility
 4. ต้องมีแป้นพิมพ์ **Thai** (เกษมณี) ใน System Settings › Keyboard › Input Sources
 
-KeySwap อยู่บนแถบเมนู (EN / TH) ปิดหน้าต่างแล้วยังทำงานต่อ
+KeySwap อยู่บนแถบเมนูเป็นไอคอน ⇄ สีเดียว ปิดหน้าต่างแล้วยังทำงานต่อ
+
+| ไอคอน | โหมด |
+|---|---|
+| เข้มทั้งหมด | Automatic: แก้ให้เองระหว่างพิมพ์ |
+| ลูกศรจาง | Manual: แก้เมื่อกด ⇧⌫ |
+| จางทั้งหมด | Off |
 
 | ปุ่มลัด | ทำอะไร |
 |---|---|
@@ -35,3 +42,12 @@ KeySwap อยู่บนแถบเมนู (EN / TH) ปิดหน้า�
 
 ## อัปเดต
 แอปเช็กเวอร์ชันใหม่ทุกครั้งที่เปิด ถ้ามีจะขึ้นปุ่ม **Update and restart** หรือกด **Check for updates** ในแท็บ About
+
+## ความเป็นส่วนตัว
+KeySwap ดูปุ่มที่กดเพื่อตรวจคำที่กำลังพิมพ์เท่านั้น ไม่บันทึกและไม่ส่งข้อความที่พิมพ์ไปไหน การเชื่อมต่ออินเทอร์เน็ตมีแค่ตอนเช็กอัปเดตจาก GitHub ไม่ทำงานในช่องรหัสผ่าน
+
+---
+
+<a id="english"></a>
+## English
+KeySwap fixes words typed on the wrong keyboard (Thai Kedmanee ↔ English QWERTY) in every app on your Mac. Download `KeySwap.dmg`, drag it to Applications, right-click → Open the first time, then allow it in Privacy & Security › Accessibility. It lives in the menu bar and updates itself from this repo's releases.
